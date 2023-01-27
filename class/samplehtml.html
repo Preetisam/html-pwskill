@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User registraion from</title>
+  </head>
+  <body>
+    <!-- http(Hpertext transfer protocall) method network protocall or rules for commuinaction
+    the text which can be linked with another get post put delete-->
+    <!-- hyper text markup languages (html) method only two method support get and post request -->
+    <!-- get request send the user data through url  this will be not secure sometime user password and bankdetails senstive details is send through them-->
+    <!-- post request dont not send the data but it requires addition body element where the data is accessed this is secure than that of get call  done through server side-->
+    <!-- we can use the new page with the help of balnk -->
+    <form method="get"> 
+
+
+         <!-- <form method="post " traget="_blank" action="/signup"></form> -->
+      <fieldset>
+        <legend>User Registration form !!</legend>
+        <label for="username">Enter your name</label>
+        <input type="text" name="username" id="username" />
+        <br />
+        <label for="useremail">Enter your Email</label>
+        <input type="email" name="useremail" id="useremail" />
+        <br />
+
+        <label for="userpassword">Enter your password</label>
+        <input type="password" name="userpassword" id="userpassword" />
+     
+        <br />
+        <!-- radio buttons -->
+        <!-- value filed should be added to detect for the servser action -->
+        Gender
+        <br />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male"/>
+        <br />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female"/>
+        <br />
+        <label for="transgender">Transgender</label>
+        <input type="radio" name="transgender" id="transgender" value="transgender" />
+        <br />
+        <input type="submit" value="submit form" />
+        </form>
+      </fieldset>
+    </form>
+  </body>
+</html>

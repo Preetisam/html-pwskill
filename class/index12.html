@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables and Properties</title>
+  </head>
+  <body>
+    <!-- Table tag or elements-->
+    <!-- row and colums are important -->
+    <!-- The <tr> element defines a table row, the <th> element defines a table header, and the <td> element defines a table cell. -->
+    <!-- tr is the indicates the table row  1,2,3,4-->
+    <!-- th indicates the table heading  A,B C -->
+    <!-- td inidactes table cell data columns -->
+    <!-- bodercolor gives the boderof the table red color -->
+    <table border cellpadding="16px" cellspacing="5px" bordercolor="red">
+      <!-- padding is used when we want to give spacing from the inside  -->
+      <!-- margin is used when we to give spacing from the outsides -->
+      <!-- cellspacing  gives space btw the cells-->
+      <!-- rowspan first row and second row -->
+      <!-- colspan takes the first col and second col  -->
+      <tr>
+        <th>sr.no</th>
+        <th>subject 1</th>
+        <th>subject 2</th>
+        <th>subject 3</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>English</td>
+        <td colspan="2">science</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>English</td>
+        <td>science</td>
+        <td rowspan="2">Computer</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>English</td>
+        <td>science</td>
+      </tr>
+    </table>
+  </body>
+</html>

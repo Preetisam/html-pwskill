@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Demo</title>
+  </head>
+  <body>
+    <!-- to construct antthing it conatin the tags  -->
+    <!-- from tag encolising outer tag coatin the many input tags-->
+    <!-- input is the auto closing tag -->
+    <form>
+      <fieldset>
+        <legend>Userdeatils!!</legend>
+        <!-- label is to highlight the text entered -->
+        <label for="name">Enter your name:</label>
+        <!-- Please enter your name: -->
+        <input type="text" id="name " name="username" />
+        <!-- enter has special from is submitted  -->
+        <br />
+        <label for="address"> please enter your address:</label>
+        <!-- text area is used for mutil line 
+     the curosor is cahnged -->
+        <!-- name atribute use case user name  -->
+        <!-- when form is submitted and send to server, server side will  identify the name by its name attribute when it is called  -->
+        <textarea
+          rows="10"
+          cols="30"
+          id="address"
+          name="useraddress"
+        ></textarea>
+        <br />
+        <label for="dob">DOB</label>
+        <input type="date" id="dob" name="userdob" />
+        <br />
+        <!-- password feild is senstistive inforamation where it is shown in dotted  -->
+        <label for="password">Enter your password</label>
+        <input type="password" id="password" name="userpassword" />
+        <br />
+        <!-- Rdio button is to select only  one opition given to the user to selevct  -->
+        Select gender: <br />
+        <label for="gender">Male</label>
+        <input type="radio" id="male" name="gender" />
+        <br />
+        <label for="gender">Female</label>
+        <input type="radio" id="female" name="gender" />
+        <br />
+        <!-- Check box  it is used to select the multiple button provided to the user for the information-->
+        Select favourite movies: <br />
+        <label for="avengers">Avengers</label>
+        <input type="checkbox" name="avengers" id="avengers" />
+        <br />
+        <label for="thor">Thor</label>
+        <input type="checkbox" name="thor" id="thor" />
+        <br />
+        <label for="ironman">IronMan</label>
+        <input type="checkbox" name="ironman" id="ironman" />
+        <br />
+        <label for="sheHulk">SheHulk</label>
+        <input type="checkbox" name="sheHulk" id="sheHulk" />
+        <br />
+        <input type="submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>

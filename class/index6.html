@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog App</title>
+  </head>
+  <body>
+    <!-- Heading -->
+    <h1>pw skills</h1>
+    <h2>Courses</h2>
+    <h3>FULL STACK WEB DEV</h3>
+    <h4>Hindi batch</h4>
+    <h5>English batch</h5>
+    <h6>thank you</h6>
+    <h1>web dev</h1>
+    <!-- Paragraph -->
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, tempora
+      asperiores illo atque, reiciendis aspernatur fugiat a molestias nihil,
+      rerum mollitia? Quae necessitatibus quas aut?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, saepe.
+    </p>
+    <!-- Text Formating -->
+    <!-- <b>tag and <strong >tag are used to give a text formating 
+        both are used make the text  bold but strong is used to empahise the text into   -->
+    <p>
+      <b>Hooks solve a wide variety of seemingly</b> unconnected problems in
+      <strong>React that we’ve encountered</strong> over five years of writing
+      and maintaining tens of thousands of components. Whether you’re learning
+      React, use it daily, or even prefer a different library with a similar
+      component model, you might recognize some of these problems.
+    </p>
+    <!-- italic -->
+    <!-- <i> and <em> tags are used to make the text to look in litalic style 
+        but the different of this is only observed during the auto-reader the
+        screen reader.where <em> tag emphesis the text while pronucations  
+    -->
+
+    <p>
+      With Hooks, you can extract <i>stateful logic from a component</i> so it
+      can be tested <em>independently and reused.</em> Hooks allow you to reuse
+      stateful logic without changing your component hierarchy. This makes it
+      easy to share Hooks among many components or with the community.
+    </p>
+
+    <!-- Underline -->
+    <u>Complex components become hard to understand</u>
+    <!-- strike through the text -->
+    <!-- to strike the text -->
+    <!-- strike is deperciated from the html -->
+    <!-- <strike> <del> and <s> are used to strike the text in paragraph -->
+    <!-- <del> tag emphsies the text during auto read -->
+    <!-- html 5 the empheiss are unssecy to read the auto screen readers -->
+    <strike>
+      We’ve often had to maintain components that started out simple but grew
+      into an unmanageable mess of stateful logic and side effects. Each
+      lifecycle method often contains a mix of unrelated logic.
+    </strike>
+    <del
+      >For example, components might perform some data fetching in
+      componentDidMount and componentDidUpdate. However, the same
+      componentDidMount method might also contain some unrelated logic that sets
+      up event listeners, with cleanup performed in componentWillUnmount.
+    </del>
+    <s>
+      Mutually related code that changes together gets split apart, but
+      completely unrelated code ends up combined in a single method. This makes
+      it too easy to introduce bugs and inconsistencies.</s
+    >
+
+    <!-- Subscript (base element) decleration and Superscript(power elements ) -->
+    <p>4<sub>2</sub></p>
+    <p>9<sup>2</sup></p>
+
+    <!-- <small> and <big> -->
+    <p>
+      <!-- There is no specific HTML tag for increasing text or other elements on a web page.
+        However, you can use the <font size=""> tag to increase the size of text,
+             or the <big> tag to increase the size of text slightly. -->
+      <small
+        >To solve this, Hooks let you split one component into smaller functions
+        based on what pieces are related (such as setting up a subscription or
+        fetching data), rather than forcing a split based on lifecycle methods.
+        You may also opt into managing the component’s local state with a
+        reducer to make it more predictable.</small
+      >
+    </p>
+
+    <p><big>Classes confuse both people and machines</big></p>
+
+    <!-- Mark is highlighter -->
+    <p>This is a <mark>highlighted</mark> text passage.</p>
+    <!-- The HTML tag used to highlight text is the <mark> tag. The <mark> tag is used to highlight a text passage, to indicate that it is new, important or relevant to the user. -->
+
+    <!-- This will render the word "highlighted" in yellow color by default, but you can use CSS to change the color. -->
+    <!-- css -->
+    <!-- p {
+    font-size: 120%;
+} -->
+    <!-- There is no specific HTML tag for increasing text or other elements on a 
+    web page. However, you can use the <font size=""> tag to increase the size of text, or the <big> tag to increase the size of text slightly. -->
+
+    <!-- You can also use CSS to increase the font size of text, for example: -->
+
+    <!-- Copy code
+     p {
+    font-size: 120%;
+     } -->
+    <!-- div {
+    transform: scale(1.2);
+     } -->
+
+    <!-- Additionally, you could use the transform property with the scale 
+    function to increase the size of an element, for example: -->
+
+    <!-- css -->
+    <!-- mark {
+        background-color: blue;
+        } -->
+    <!-- It will change the color of the highlighted text to blue. -->
+    <!-- <abbr> tag is used for the abbreation for the text-->
+    <p>
+      <abbr title="CSS">Cascading Style Sheet</abbr> Lorem ipsum, dolor sit amet
+      consectetur adipisicing elit. Optio, deserunt.
+    </p>
+    <!-- <dfn> defenations -->
+
+    <p>TLDR: <dfn>There are no plans to remove classes from React.</dfn></p>
+    <p>
+      We know that React developers are focused on shipping products and don’t
+      have time to look into every new API that’s being released. Hooks are very
+      new, and it might be better to wait for more examples
+      <ins>of hooks</ins>and tutorials before considering learning or adopting
+      them.
+    </p>
+  </body>
+</html>
