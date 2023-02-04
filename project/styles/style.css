@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Dancing Script", cursive;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #edf1fd;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+li {
+  list-style: none;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+button {
+  background-color: rgb(6, 175, 241);
+  padding: 1px 10px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid white;
+  font-weight: 600;
+  width: fit-content;
+}
+button:hover {
+  background-color: #fff;
+  color: black;
+  border: 1px solid black;
+}
+nav {
+  display: flex;
+  width: 100%;
+  height: 65px;
+  align-items: center;
+  justify-content: space-around;
+  /* padding: 16px; */
+  background-color: skyblue;
+}
+nav.log {
+  font-weight: 700;
+  font-size: 30px;
+}
+nav ul {
+  display: flex;
+  align-content: center;
+  gap: 30px;
+}
+
+nav ul li:hover {
+  font-size: medium;
+  text-decoration: underline;
+  font-weight: 900;
+}
+.seach_filed {
+  display: flex;
+  gap: 35px;
+}
+input {
+  padding: 4px 10px;
+  border-radius: 10px;
+}
+.hero_section {
+  display: flex;
+  align-items: center;
+}
+.hero_section_logo img {
+  width: 88px;
+  height: 76px;
+}
+.hero_left_section {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  padding: 10%;
+}
+.hero_left_section h1 span {
+  color: skyblue;
+  font-weight: 900;
+  font-size: 4.5 rem;
+}
+.hero_left_section p {
+  font-weight: 700;
+}
+.hero_left_section p {
+  font-weight: 700;
+  font-size: 25px;
+  color: rg(18, 155, 155);
+}
+.hero_right_section {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+}
+.hero_right_section_image {
+  border-radius: 50%;
+}
+.hero_right_secftion-btns {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.hero_right_secftion img {
+  height: 300px;
+  width: 300px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  justify-content: space-around;
+  background-color: skyblue;
+}
+footer p {
+  font-weight: 600;
+}
+footer ul {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
