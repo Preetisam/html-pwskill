@@ -7,22 +7,22 @@
     <title>Form Demo</title>
   </head>
   <body>
-    <!-- to construct antthing it conatin the tags  -->
-    <!-- from tag encolising outer tag coatin the many input tags-->
+    <!-- to construct anything it contain the tags  -->
+    <!-- from tag enclosing outer tag contain  many input tags-->
     <!-- input is the auto closing tag -->
     <form>
       <fieldset>
-        <legend>Userdeatils!!</legend>
+        <legend>Userdetails!!</legend>
         <!-- label is to highlight the text entered -->
         <label for="name">Enter your name:</label>
         <!-- Please enter your name: -->
         <input type="text" id="name " name="username" />
-        <!-- enter has special from is submitted  -->
+        <!-- enter has special form is submitted  -->
         <br />
         <label for="address"> please enter your address:</label>
-        <!-- text area is used for mutil line 
-     the curosor is cahnged -->
-        <!-- name atribute use case user name  -->
+        <!-- text area is used for multi line
+     the cursor is changed -->
+        <!-- name attribute use case user name  -->
         <!-- when form is submitted and send to server, server side will  identify the name by its name attribute when it is called  -->
         <textarea
           rows="10"
@@ -32,13 +32,13 @@
         ></textarea>
         <br />
         <label for="dob">DOB</label>
-        <input type="date" id="dob" name="userdob" />
+        <input type="date" id="dob" name="userdob" autofocus />
         <br />
-        <!-- password feild is senstistive inforamation where it is shown in dotted  -->
+        <!-- password field is sensitive information where it is shown in dotted  -->
         <label for="password">Enter your password</label>
         <input type="password" id="password" name="userpassword" />
         <br />
-        <!-- Rdio button is to select only  one opition given to the user to selevct  -->
+        <!-- Radio button is to select only  one option given to the user to select  -->
         Select gender: <br />
         <label for="gender">Male</label>
         <input type="radio" id="male" name="gender" />
@@ -60,7 +60,8 @@
         <label for="sheHulk">SheHulk</label>
         <input type="checkbox" name="sheHulk" id="sheHulk" />
         <br />
-        <input type="submit" />
+        <input type="number" min="o" max="3" />
+        <input type="submit" vakue="submit form" />
       </fieldset>
     </form>
   </body>

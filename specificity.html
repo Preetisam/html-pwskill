@@ -1,0 +1,27 @@
+<style>
+  /* low specificity */
+  p {
+    color: green;
+  }
+  /* medium specificity */
+  .highlight {
+    color: yellow;
+  }
+  /* high specificity */
+  #unique {
+    color: red;
+  }
+</style>
+
+<p class="highlight" id="unique">This is a paragraph.</p>
+
+
+
+
+In the above example, the text color of the paragraph will be red because the
+selector with the highest specificity (the one with the ID attribute) wins.
+
+<!-- Specificity in CSS refers to the determination of which style rules will be applied to an HTML element. It is a priority system that decides which style should be applied to an element when multiple styles are conflicting. The specificity of a selector is calculated based on the number of elements in the selector, the number of ID attributes, the number of class attributes, and the number of attributes and pseudo-classes in the selector. The more specific the selector, the higher the specificity of the rule, and the more likely it will be applied to an element. In case of conflicting styles, the more specific selector wins.
+
+For example, a selector with an ID attribute is more specific than a selector with a class attribute, which is more specific than a selector with an element name only. -->
+<!-- In the above example, the text color of the paragraph will be red because the selector with the highest specificity (the one with the ID attribute) wins. -->

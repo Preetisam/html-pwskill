@@ -1,0 +1,28 @@
+/* Descending selector */
+/* the selctor which in side it is targeted */
+
+main p {
+  color: red;
+}
+/* Child selector */
+
+h1 > p {
+  color: blue;
+}
+
+/* adjecent sibling  */
+/* section + p {
+  color: brown;
+} */
+/* Genrenal sibling selector */
+section ~ p {
+  color: yellow;
+}
+/* Attributes selector */
+[target="_blank"] {
+  color: hotpink;
+  text-decoration: none;
+}
+[alt~="Pw"] {
+  background-color: black;
+}
