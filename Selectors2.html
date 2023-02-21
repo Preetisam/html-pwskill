@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css|| Selectors 2</title>
+    <link rel="stylesheet" href="./style6.css" />
+  </head>
+  <body>
+    <!-- Descending Selector -->
+    <!-- one who is under or the one who is child element
+    selector allows us to select elements that are descendants od some other selector -->
+
+    <h1>Hello world</h1>
+    <main>
+      <h2>Hello world</h2>
+      <p>Hello i am paragraph</p>
+    </main>
+    <h1></h1>
+    <!-- Child selector -->
+    <!-- is a direct selector it only target the direct or immediate child of the parent selector -->
+    <!-- the >combination acts more like the descendant combinator expect that it is more particular and selects direct children of the parent element -->
+    <p>Hola world</p>
+    <section>
+      <p>Hello i am not silbling paragraph</p>
+    </section>
+    <!-- Adjacent sibling selector -->
+    <!-- the + combination selects adjecent element siblings .it will select only the element that is immediately after mentioned element -->
+    <p>Hello I am Second paragraph</p>
+    <p>this is css</p>
+    <!-- GENERAL  sibling Selector -->
+    <!-- to select all elements that follow the first element such that all are children of the same parent -->
+    <main>
+      <p>i am not sibling</p>
+    </main>
+    <p>this is me p tag</p>
+    <!--Attribute selector  -->
+    <!-- [attribute="value "] selector is used to select elements with a specified attributes and value  -->
+    <a href="google.com" target="_blank">Google</a>
+    <img src="#" alt="Pw" />
+    <img src="#" alt="pw2" />
+  </body>
+</html>

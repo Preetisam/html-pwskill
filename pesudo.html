@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo classes</title>
+    <style>
+      /* this is for hover */
+      /* mainly hover is used for button and anchor tags */
+      p:hover {
+        /* background-color: black; */
+        color: white;
+      }
+      /* this is for focus */
+      /* focus is mainly used for input tags */
+      /* input:focus {
+        color: white;
+        background-color: black;
+        font-size: 150%;
+        width: 700px;
+        height: 50px;
+      } */
+      /* this is for hover on anchor */
+      /* a:hover{
+            color: white;
+            background-color: black;
+        }
+        a:active{
+            color:pink;
+            background-color :white;
+        }
+        a:visited{
+            color:black;
+            background-color:whitesmoke;
+        } */
+      a:hover {
+        color: blueviolet;
+        /* background-color: black; */
+      }
+      a:active {
+        color: red;
+        /* background-color: red; */
+      }
+      a:visited {
+        color: blue;
+        /* background-color: blue; */
+      }
+      /* a:first-child{
+            background-color: black;
+            color: white;
+        } */
+      /* nth child have many more properties and you may basically use
+        even, odd, 2n-1 and as many more */
+      /* a:nth-child(2n-1){
+            color: rgb(0, 255, 255);
+        } */
+    </style>
+  </head>
+  <body>
+    <!-- Pseudo Classes -->
+    <p class="hover">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, iste
+      ipsam! A commodi unde, hic ea perferendis dignissimos sapiente.
+    </p>
+    <hr />
+    <input type="text" />
+    <hr />
+    <div>
+      <a href="https://www.google.com/" style="font-size: 22px">Go to Google</a>
+      <hr />
+      <a href="https://www.linkedin.com/" style="font-size: 22px"
+        >Go to linkedin</a
+      >
+      <hr />
+    </div>
+  </body>
+</html>

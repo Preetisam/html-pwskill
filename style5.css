@@ -1,0 +1,31 @@
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Element Selector */
+h1 {
+  color: #808081;
+}
+p {
+  color: red;
+}
+/* Class Selector */
+.para {
+  color: #0e0eb8;
+}
+.hello {
+  font-size: 60px;
+}
+/* Id selector */
+/* id should be unique element */
+#id1 {
+  color: whitesmoke;
+  background-color: black;
+}
+/* Slector List */
+/* allow to select differnt elements at once */
+.class1,
+.class7,
+.class10 {
+}

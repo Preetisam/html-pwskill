@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <style>
+      .cont{
+        /* display:flex;  it takes total container */
+        display: flex;
+        height:  700px;
+        border: 1px solid black;
+        /* flex-direction: row-reverse; */
+        /* flex-direction: column-reverse; */
+        /* flex-direction: column; */
+        /* flex-wrap: wrap; */
+        /* flex-wrap: wrap-reverse; */
+        /* flex-wrap: nowrap; */
+        /* justify-content: center; */
+        /* justify-content: end; */
+        justify-content: baseline;
+        /* justify-content: space-around; */
+        /* justify-content: space-between; */
+        /* justify-content: space-evenly; */
+         /* justify are used for the left to right  */
+         /* align items top to bottom */
+         /* align-items: center; */
+         /* align-items: flex-end; */
+         /* align-content: baseline; */
+         /* align-content: space-around; 
+         align-content: space-between;
+         align-content: space-evenly; */
+         /* justify-content: center;
+         align-items: center; */
+         /* column-gap: 100px; */
+         /* gap:100px; */
+         /*flow flow conatins both flex-direction: ;
+         flex-wrap: ; */
+         /* flex-flow: start nowarp; */
+
+      
+      }
+      .box{
+        height: 100px;
+        width:100px;
+      }
+      .box1{
+        background-color:red;
+      }
+      .box2{
+        background-color: yellow;
+      }
+      .box3{
+        background-color:green;
+        order: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- flex -->
+    <div class="cont">
+      <div class=" box box1">Box 1</div>
+      <div class=" box box2">Box 2</div>
+      <div class=" box box3">Box 3</div>
+     
+    </div>
+    <h1>Flex Box</h1>
+    <p>
+      The felxible Box layout Module ,which is popularity known as FelxBox, is
+      powerful way of designing the effcient and responsive latout in CSS
+    </p>
+    <ul>
+      <li>Flex Container</li>
+      <li>Flex Items</li>
+      <li>Main Axis</li>
+      <li>Cross Axis</li>
+    </ul>
+    <!-- Left to right is main acess -->
+    <p>
+      it helps us to create one dimension layout and provide much more
+      flexiablity and control over the lay out design .it also allows us to put
+      our elements in a row or column within our layout One can easily
+      distribute the space between elements within flex container
+    </p>
+    <section>
+      <h3>Different flexbox property</h3>
+      <p>Flex Container Properties
+        
+        <ul>
+          <li>display</li>
+          <li>flex-dorection</li>
+          <li>flex-wrap</li>
+          <li>flex-flow</li>
+          <li>Justify-content</li>
+          <li>align-items</li>
+          <li>align-content</li>
+          <ul>
+            <ol>row-gap</ol>
+            <ol>column-gap</ol>
+          </ul>
+        </ul>
+      </p>
+      <p>Flex Items Properties</p>
+
+
+    </section>
+  </body>
+</html>

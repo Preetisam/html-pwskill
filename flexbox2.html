@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FelxBox 2</title>
+    <style>
+      .cont {
+        display: inline-flex;
+        height: 700px;
+        border: 1px solid black;
+
+        justify-content: center;
+        align-items: center;
+
+        flex-flow: start nowarp;
+      }
+      .box {
+        height: 100px;
+        width: 100px;
+      }
+      .box1 {
+        background-color: red;
+        /* flex-grow: 10; */
+        /* shrink will first  */
+        flex-shrink: 2;
+      }
+      .box2 {
+        background-color: yellow;
+        /* order:1; */
+        flex-grow: 2;
+        align-items: left;
+      }
+      .box3 {
+        background-color: green;
+        /* order:1 ; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cont">
+      <div class="box box1">Box 1</div>
+      <div class="box box2">Box 2</div>
+      <div class="box box3">Box 3</div>
+      <p>
+        <!-- when we are using strech the heigh and width is overwrite them -->
+        <ul>
+            <li>order</li>
+            <li>flex-grow</li>  
+            <li>flex-shrink</li>
+            <li>flex-basis</li>
+            <li>flex</li>
+            <li>align-slef</li>
+
+            <li>dispaly flex </li>
+            <li>flex-direction </li>
+            <li>flex wrap </li>
+            <li>flex flow </li>
+            <li>justify-content</li> 
+            <li>align-item</li>
+            <li>align-content </li>
+            <li>gap</li>
+
+        </ul>
+      </p>
+    </div>
+  </body>
+</html>
